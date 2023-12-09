@@ -1,0 +1,93 @@
+
+body{
+    background-image: url("BlackVelvet.jpg");
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+}
+.flex-col{
+    flex-direction: column;
+
+}
+.flex-row{
+    flex-direction: row;
+}
+.nav-item{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+nav{
+    padding: 0%;
+    margin: 0%;
+}
+nav ul {
+    list-style: none;
+    align-items: center;
+}
+.link-normal{
+    color: rgb(166, 166, 166);
+    text-decoration: none;
+
+
+}
+.gold-border{
+    padding: 5px;
+    border: solid transparent;
+    border-image: url("Gold.jpg") 30 stretch ;
+    border-radius: 50px;
+}
+.gold-text{
+    -webkit-text-fill-color: transparent;
+    background-image: url("Gold.jpg");
+    background-size: 55px;
+    background-repeat: repeat;
+    background-clip: text;
+}
+.black-velvet-back{
+    background-image: url("BlackVelvet.jpg") ;
+    color: aliceblue;
+}
+.red-velvet-back{
+    background-image: url("velvet.jpg") ;
+    background-size: cover;
+    color:aliceblue;
+    border-radius: 40px;
+
+
+
+}
+.text-large{
+    font-size: 40pt;
+    padding: 0%;
+    margin: 0%;
+}
+
+.stylish-font{
+    font-family: 'Grandiflora One', cursive;
+
+}
+.text-left{
+    text-align: left;
+}
+.tight{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.footer{
+
+}
