@@ -13,7 +13,7 @@
 <body>
     <!-- navbar -->
     <nav class="container flex-col center-h black-velvet-back">
-        <h1 class="text-large stylish-font gold-text">My Web Portfolio</h1>
+        <h2 class="text-large stylish-font gold-text">My Web Portfolio</h2>
         <ul class="container flex-row">
             <li class="nav-item">
                 <a href="index.html" class="link-normal gold-border">Home</a>
@@ -26,20 +26,52 @@
             </li>
         </ul>
     </nav>
+    <div class="container gold-text text-large stylish-font">
+        Contact
+    </div>
+    <div class="container no-pad red-velvet-back spaced">
+        <div class="container inset-div stich-border-red flex-col">
+            <h3 class="gold-text">
+                My Contact Information
+            </h3>
+            <table class="black-velvet-back round-bord">
+                <tbody>
+                    <tr>
+                        <th scope="row">Phone</th>
+                        <td>417-619-8975</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Email</th>
+                        <td>rustyonion133@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
     <!-- form -->
-    <div class="red-velvet-back container">
-        <form action="thank-you.html" class=" flex-col no-pad inset-div stich-border-red ">
+    <div class="container no-pad red-velvet-back spaced ">
+        <form action="thank-you.html" class=" container flex-col round-bord no-pad inset-div stich-border-red">
             <p>
                 If you are a potential employer <br>
                 please fill out this form
             </p>
-            <label for="fname"></label>
-            <label for="fphone"></label>
-
-            <input type="text">
-            <input type="number">
-            <input type="email">
-            <input type="text">
+            <div class="form-item">
+                <label for="fname">Name of <br>organization/employer</label>
+                <input type="text" id="fname">
+            </div>
+            <div class="form-item">
+                <label for="fphone">Phone #</label>
+                <input type="number" id="fphone">
+            </div>
+            <div class="form-item">
+                <label for="femail">Email</label>
+                <input type="email" id="femail">
+            </div>
+            <div class="form-item">
+                <label for="fquestions">Subject</label>
+                <input type="text" id="fquestions">
+            </div>
+            <button type="submit">Submit</button>
         </form>
     </div>
     <footer class="container footer black-velvet-back">
